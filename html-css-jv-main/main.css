@@ -1,0 +1,64 @@
+body{
+    font-family: monospace;
+}
+ul {
+    font-family: helvética;
+}
+li {
+    list-style: circle;    
+}   
+.list {  
+    list-style: square; 
+    }  
+ #msg {
+    font-family: monospace;
+     }
+ :root{
+   --green: green;
+   --white: rgb(221, 188, 43);
+   --black:rgb(255, 255, 255);
+ }
+ *{
+    color: var(--fontColor);
+    font-family: helvética;
+ }
+ body {
+    background: var(--bg);
+ }
+ .light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);   
+ }
+ .dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);   
+ }
+ .btn {
+   color: var(--btnFontColor);
+   background-color: var(--btnBg);
+ }
+ .btn {
+   position: absolute;
+   top: 20px;
+   left: 400px;
+   height: 500px;
+   width: 500px;
+   border-radius: 50%;
+   border: none;
+   color: var(--btnFontColor);
+   background-color: var(--btnBg);
+ }
+ .btn:focus { outline-style:nome; }
+ 
+ .light-theme {
+   --bg: var(--green);
+   --fontColor: var(--black);
+   --btnBg: var(--black);
+   --btnFontColor: var(--white);
+ }
+ .dark-theme {
+   --bg: var(--black);
+   --fontColor: var(--green);
+   --btnBg: var(--white);
+   --btnFontColor: var(--black);
+ }
